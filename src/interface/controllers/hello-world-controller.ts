@@ -4,6 +4,6 @@ export class HelloWorld {
     constructor() {}
 
     helloWorld(req: Request, res: Response){
-        res.send('Hello World').status(200)
+        res.send('Hello Brasil').status(200)
     }
 }
