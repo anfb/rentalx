@@ -12,8 +12,10 @@
     "skipLibCheck": true,
     "baseUrl": "src",
     "paths": {
-      "@application*":["application*"],
-      "@interface*":["interface*"]
+      "@application*": ["application*"],
+      "@domain*": ["domain*"],
+      "@infrastructure*": ["infrastructure*"],
+      "@interface*": ["interface*"]
     }
   },
   "include": ["src/**/*"]
